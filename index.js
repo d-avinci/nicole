@@ -34,18 +34,3 @@ function entrar(){
         estado = -1
     }
 }
-
-sim.addEventListener("click", clicar)
-
-function clicar(){
-    resp.innerHTML ="Eu te amo meu amoooor!!"
-    sim.style.transform="translate(0px)"
-    nao.style.transform="translate(0px, 0px)"
-
-    resp.style.opacity= 1;
-
-    setTimeout(function(){
-        resp.style.opacity = 0;
-      }, 3000 )
-    
-}
